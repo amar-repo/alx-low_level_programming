@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * Program starts executing after this comment
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
-int main(void) /* This is the entry point */
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 		return (0);
