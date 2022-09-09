@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * Program starts executing after this comment
  */
 int main(void) /* This is the entry point */
