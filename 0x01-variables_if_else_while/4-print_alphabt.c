@@ -9,9 +9,13 @@ int main(void)
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		if (alpha == 'e', 'q')
+		if (alpha == 'e')
 		{
 			alpha = alpha + 1;
+		}
+		if (alpha == 'q')
+		{
+			alpha = alpha +1;
 		}
 	putchar(alpha);
 	}
