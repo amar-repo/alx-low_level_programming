@@ -3,7 +3,7 @@
  * main - program start
  * Return: program end
  */
-int main(void)
+int main()
 {
 	char hpla = 'z';
 
