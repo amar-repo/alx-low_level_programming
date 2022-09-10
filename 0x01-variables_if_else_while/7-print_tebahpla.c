@@ -12,4 +12,5 @@ int main(void)
 		putchar(hpla);
 	}
 	putchar('\n');
+	return (0);
 }
