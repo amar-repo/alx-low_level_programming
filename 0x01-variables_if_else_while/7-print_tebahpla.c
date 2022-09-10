@@ -3,11 +3,11 @@
  * main - program start
  * Return: program end
  */
-int main()
+int main(void)
 {
 	char hpla = 'z';
 
-	for (hpla = 'z'; hpla <= 'a'; hpla--)
+	for (hpla = 'z'; hpla >= 'a'; hpla--)
 	{
 		putchar(hpla);
 	}
