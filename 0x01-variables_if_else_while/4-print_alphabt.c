@@ -15,7 +15,7 @@ int main(void)
 		}
 		if (alpha == 'q')
 		{
-			alpha = alpha +1;
+			alpha = alpha + 1;
 		}
 	putchar(alpha);
 	}
