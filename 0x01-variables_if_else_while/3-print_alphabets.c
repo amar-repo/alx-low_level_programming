@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(alpha);
 	}
-	for (BET = 'A'; alpha <= 'Z'; BET++)
+	for (BET = 'A'; BET <= 'Z'; BET++)
 	{
 		putchar(BET);
 	}
