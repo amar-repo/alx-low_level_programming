@@ -8,12 +8,12 @@
  */
 int _islower(int c)
 {
-	int a;
+	int c;
 
-	a = _islower('D');
-	_putchar(a + '0');
-	a = _islower('g');
-	_putchar(a + '0');
+	c = _islower('D');
+	_putchar(c + '0');
+	c = _islower('g');
+	_putchar(c + '0');
 	_putchar('\n');
 	return (0);
 }
