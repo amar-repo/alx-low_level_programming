@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Program start here
+ * print_alphabet - Program start here
  * Return: Program exits 0
  */
 void print_alphabet(void)
@@ -13,6 +13,4 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
