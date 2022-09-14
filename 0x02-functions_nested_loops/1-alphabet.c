@@ -3,7 +3,7 @@
  * main - Program start here
  * Return: Program exits 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
