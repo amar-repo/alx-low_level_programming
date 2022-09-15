@@ -8,12 +8,12 @@
  */
 int _islower(int c)
 {
-	int c;
-
-	c = _islower('D');
-	_putchar(c + '0');
-	c = _islower('g');
-	_putchar(c + '0');
-	_putchar('\n');
-	return (0);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
