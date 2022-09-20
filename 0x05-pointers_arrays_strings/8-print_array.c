@@ -18,7 +18,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			printf("%d\n, a[let]);
+			printf("%d\n, "a[let]);
 		}
 	}
 	_putchar('\n');
