@@ -14,11 +14,11 @@ void print_array(int *a, int n)
 	{
 		if (let != n - 1)
 		{
-			printf("%d\n, ", a[let]);
+			printf("%d, ", a[let]);
 		}
 		else
 		{
-			printf("%d\n, "a[let]);
+			printf("%d", a[let]);
 		}
 	}
 	_putchar('\n');
