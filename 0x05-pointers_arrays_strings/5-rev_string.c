@@ -15,6 +15,11 @@ void rev_string(char *s)
 		*(s + len - i - 1) = c;
 	}
 }
+/**
+ * _strlen - returns length of string
+ * @s: string
+ * Return: length of string
+ */
 
 int _strlen(char *s)
 {
@@ -24,5 +29,5 @@ int _strlen(char *s)
 	{
 		len++;
 	}
-	return (0);
+	return (len);
 }
