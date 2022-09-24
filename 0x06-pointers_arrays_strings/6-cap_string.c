@@ -4,31 +4,46 @@
  * @str: string
  * Return: returns string
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
-	int i = 0, j;
-	char a[] = " \t\n,;.!?\"(){}";
+	int i = 0;
 
-	while (*(s + i))
+	while (str[++i])
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		while (!(str[i] >= 'a') && (str[i] <= 'z'))
 		{
-			if (i == 0)
-			{
-				*(s + i) -= 'a' - 'A';
-			}
-			else
-			{
-				for (j = 0; j <= 12; j++)
-				{
-					if (a[j] == *(s + i - 1))
-					{
-						*(s + i) -= 'a' - 'A';
-					}
-				}
-			}
+			i++;
 		}
-		i++;
+		if (str[i - 1] == ' ' ||
+			str[i - 1] == '\t' ||
+			str[i - 1] == '\n' ||
+			str[i - 1] == ',' ||
+			str[i - 1] == ';' ||
+			str[i - 1] == '.' ||
+			str[i - 1] == '!' ||
+			str[i - 1] == '?' ||
+			str[i - 1] == '"' ||
+			str[i - 1] == '(' ||
+			str[i - 1] == ')' ||
+			str[i - 1] == '{' ||
+			str[i - 1] == '}')
+		str[i] -= 32;
 	}
 	return (str);
+}
+
+/**
+ * _strlen - returns length of string
+ * @s: string
+ * Return: returns length
+ */
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+	{
+		len++;
+	}
+	return (len);
 }
