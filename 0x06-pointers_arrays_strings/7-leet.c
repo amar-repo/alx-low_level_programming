@@ -2,7 +2,7 @@
 /**
  * leet - encode string into 1337
  * @s: string
- *Return: address of s
+ * Return: address of s
  */
 char *leet(char *s)
 {
@@ -10,7 +10,7 @@ char *leet(char *s)
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	for (i = 0; j <= 9; j++)
+	for (i = 0; *(s + i); i++)
 	{
 		for (j = o; j <= 9; j++)
 		{
