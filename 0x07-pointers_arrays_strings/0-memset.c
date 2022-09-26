@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _memtest - fills memory block with constant byte
+ * _memset - fills memory block with constant byte
  * @s: address of memory block
  * @b: char to fill
  * @n: number of bytes to be used
  * Return: pointer to memory block
  */
-char *_memtest(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
 	{
