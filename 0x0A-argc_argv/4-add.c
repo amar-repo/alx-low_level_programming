@@ -15,9 +15,10 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
-			if (isdigit(argv[i][j]) == 0)
+			if (isdigit(argv[i][j])) == 0)
 			{
 				puts("Error");
+				return (1);
 			}
 		}
 	}
