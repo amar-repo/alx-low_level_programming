@@ -3,7 +3,7 @@
  * main - prints number of command line arguments passed
  * @argc: number of arguments
  * @argv: pointer to array of arguments
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
