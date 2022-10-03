@@ -3,9 +3,9 @@
  * main - prints number of command line arguments passed
  * @argc: number of arguments
  * @argv: pointer to array of arguments
- * Return: nothing
+ * Return: Always 0 
  */
-int main(int argc, int argv __attribute__((unused)))
+int main(int argc, char *argv __attribute__((unused)))
 {
 	printf("%d\n", argc - 1);
 	return (0);
