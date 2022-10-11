@@ -1,1 +1,1 @@
-Readme file for structures, typedef project
+Readme file for preprocessor project
