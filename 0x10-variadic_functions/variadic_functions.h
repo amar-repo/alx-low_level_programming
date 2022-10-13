@@ -1,17 +1,8 @@
 #ifndef _VARIADIC_FUNCTIONS_H_
 #define _VARIADIC_FUNCTIONS_H_
 
+#include <stdio.h>
 #include <stdarg.h>
-/**
- * struct print - print type with corresponding print functions
- * @t: print type
- * @f: print function
- */
-typedef struct print
-{
-	char *t;
-	void (*f)(va_list);
-} print_t;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
