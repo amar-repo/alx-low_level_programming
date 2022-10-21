@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * list_len - a function that returns the number
